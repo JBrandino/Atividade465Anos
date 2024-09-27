@@ -1,0 +1,10 @@
+^C:\USERS\2DS\DESKTOP\ATIVIDADE465ANOS-MAIN\BUILD\WINDOWS\X64\CMAKEFILES\0984F2B5AB4DF4F7C3112F1C92885116\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/2ds/Desktop/Atividade465Anos-main/windows -BC:/Users/2ds/Desktop/Atividade465Anos-main/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/2ds/Desktop/Atividade465Anos-main/build/windows/x64/portos_pam.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\2DS\DESKTOP\ATIVIDADE465ANOS-MAIN\BUILD\WINDOWS\X64\CMAKEFILES\0984F2B5AB4DF4F7C3112F1C92885116\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

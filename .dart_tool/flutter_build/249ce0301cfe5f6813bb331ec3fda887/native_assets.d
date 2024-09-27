@@ -1,0 +1,1 @@
+ C:\\Users\\2ds\\Desktop\\Atividade465Anos-main\\.dart_tool\\flutter_build\\249ce0301cfe5f6813bb331ec3fda887\\native_assets.yaml: 
